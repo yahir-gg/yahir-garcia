@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+:root{
+    --font-color: #fff;
+    --main-font: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    color: var(--font-color);
+    font-family: var(--main-font);
+}
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("../media/background.jpg");
+}
+body{
+    margin-top: 50px;
+}
+.container{
+    margin: 0 10%;
+    margin-bottom: 30px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    word-spacing:0px;
+    font-size: 16px;
+}
+.navbar ul{
+    padding-left: 0;
+}
+#home-a{
+    margin-left: 0;
+}
+#main h1, #main p{
+    margin-bottom: 30px;
+}
+#main h1{
+    font-size: 48px;
+}
+#main p span{
+    border-bottom: solid 3px aqua;
+}
+#main p{
+    font-size: 24px;
+}
+#about, #resume, #projects, #contact{
+    display:none;
+}
+.navbar a:hover{
+    color: aqua;
+}
+/* -----------------------------------------------A B O U T */
+.profile-pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.content{
+    padding: 5%;
+}
+.title{
+    padding: 0 5%;
+}
+.title #about-t, #contact-c{
+    font-size: 14px;
+}
+.title #learn-t, #contactme-c{
+    font-size: 30px;
+    font-weight: 700;
+}
+.content .figure{
+    width: 25%;
+    height: 480px;
+}
+.content .text{
+    width: 75%;
+    margin-left: 40px;
+    background-color: rgba(0, 0, 0, 50%);
+    padding: 30px;
+    border-radius: 20px;
+}
+.text span{
+    text-transform: uppercase;
+    color: aqua;
+    font-weight: 700;
+    font-size: 20px;
+}
+.text p{
+    margin-top: 10px;
+}
+.content{
+    display: flex;
+}
+
+/* -----------------------------------------------P R O J E C T S  */
+#projects .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project{
+    width: 450px;
+    min-height: 300px;
+    max-height: 450px;
+    /*border: solid 2px purple;*/
+    background-color: rgba(0, 0, 0, 50%);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
+#best-pj{
+    width: 800px;
+    min-height: 300px;
+    max-height: 400px;
+}
+.project span{
+    color: aqua;
+    font-weight: 700;
+}
+.icons .icon img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.icons .iconb img{
+    width: 100px;
+    height: 70px;
+}
+.icons{
+    display: flex;
+    margin-top: 10px;
+}
+.icon{
+    padding: 0 10px;
+}
+
+.iconb img{
+    border-radius: 20px;
+}
+.project > span{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.project p{
+    margin-top: 10px;
+}
+/*-------------------C O N T A C T-------*/
+
+.hard-bg{
+    width: 80%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 70%);
+    padding: 30px;
+    margin: 0 auto;
+}
+.hard-intern{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.08);;
+    display: flex;
+}
+#email-icon{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+#call-icon{
+    width: 50px;
+    height: 50px;
+}
+.contact-head{
+    margin-left: 10px;
+}
+.icons .icon.m img{
+    width: 40px;
+    height: 40px;
+}
