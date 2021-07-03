@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+    #main h1, #main p{
+        text-align: center;
+    }
+    .navbar{
+        text-align: center;
+    }
+    .icons.main{
+        justify-content: center;
+    }
+    /*about*/
+    #about .content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #about .content .figure{
+        width: 100%;
+    }
+    #about .content .text{
+        margin: 0;
+        width: 100%;
+    }
+    /*projects*/
+    #best-pj{
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100%;
+        max-height: 900px;
+    }
+    .project{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        max-height: 900px;
+    }
+    .icons{
+        flex-wrap: wrap;
+    }
+    /*contact*/
+    .hard-intern{
+        flex-wrap: wrap;
+    }
+    .hard-bg{
+        margin: 0;
+        width: 100%;
+    }
+    .hard-intern .box{
+        margin-bottom: 10px;
+    }
+}
