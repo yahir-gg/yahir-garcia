@@ -44,13 +44,13 @@ body{
 #main h1{
     font-size: 48px;
 }
-#main p span{
+#main p span, #my2022 p span{
     border-bottom: solid 3px aqua;
 }
 #main p{
     font-size: 24px;
 }
-#about, #resume, #projects, #contact{
+#about, #resume, #projects, #contact, #my2022{
     display:none;
 }
 .navbar a:hover{
@@ -186,4 +186,18 @@ body{
 .icons .icon.m img{
     width: 40px;
     height: 40px;
+}
+
+.img-curso img{
+    width: 400px;
+    height: 240px;
+}
+.img-curso{
+    margin: 10px;
+}
+.img-cursos{
+    display: flex;
+}
+#warning{
+    color: yellow;
 }

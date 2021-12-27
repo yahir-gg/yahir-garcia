@@ -3,6 +3,7 @@ function showHome(){
     document.getElementById('about').style.display = 'none';
     document.getElementById('projects').style.display = 'none';
     document.getElementById('contact').style.display = 'none';
+    document.getElementById('my2022').style.display = 'none';
     var x = document.getElementsByClassName('icons main');
     for (i=0; i<x.length;i++){
         x[i].style.display="flex";
@@ -13,6 +14,7 @@ function showAbout(){
     document.getElementById('about').style.display = 'block';
     document.getElementById('projects').style.display = 'none';
     document.getElementById('contact').style.display = 'none';
+    document.getElementById('my2022').style.display = 'none';
     var x = document.getElementsByClassName('icons main');
     for (i=0; i<x.length;i++){
         x[i].style.display="none";
@@ -24,6 +26,7 @@ function showContact(){
     document.getElementById('about').style.display = 'none';
     document.getElementById('projects').style.display = 'none';
     document.getElementById('contact').style.display = 'block';
+    document.getElementById('my2022').style.display = 'none';
     var x = document.getElementsByClassName('icons main');
     for (i=0; i<x.length;i++){
         x[i].style.display="none";
@@ -33,6 +36,18 @@ function showProjects(){
     document.getElementById('main').style.display = 'none';
     document.getElementById('about').style.display = 'none';
     document.getElementById('projects').style.display = 'block';
+    document.getElementById('my2022').style.display = 'none';
+    document.getElementById('contact').style.display = 'none';
+    var x = document.getElementsByClassName('icons main');
+    for (i=0; i<x.length;i++){
+        x[i].style.display="none";
+    }
+}
+function show2022(){
+    document.getElementById('main').style.display = 'none';
+    document.getElementById('about').style.display = 'none';
+    document.getElementById('projects').style.display = 'none';
+    document.getElementById('my2022').style.display = 'block';
     document.getElementById('contact').style.display = 'none';
     var x = document.getElementsByClassName('icons main');
     for (i=0; i<x.length;i++){
