@@ -201,3 +201,7 @@ body{
 #warning{
     color: yellow;
 }
+.message{
+    width: 700px;
+    height: 500px;
+}
